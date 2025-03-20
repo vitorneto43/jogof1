@@ -8,11 +8,23 @@
       background-color: #0a0a0a;
       color: #fff;
       text-align: center;
-      font-family: 'Arial Black', sans-serif;
-      padding-top: 100px;
+      font-family: Arial, sans-serif;
+      padding: 40px;
     }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
     .btn {
       display: inline-block;
+      margin: 20px 0;
       padding: 20px 40px;
       background-color: #ff0000;
       color: white;
@@ -23,18 +35,65 @@
       box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
       transition: background-color 0.3s, transform 0.2s;
     }
+
     .btn:hover {
       background-color: #cc0000;
       transform: scale(1.05);
+    }
+
+    .instructions {
+      margin-top: 40px;
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .instructions h2 {
+      text-align: center;
+      color: #ff0000;
+      margin-bottom: 20px;
+    }
+
+    .instructions ol {
+      padding-left: 20px;
+      font-size: 1.1rem;
+    }
+
+    .small {
+      font-size: 0.9rem;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
 
   <h1>Thank You for Your Purchase!</h1>
-  <p>Your payment was successful. Click the button below to download F1 Racing Legends and start your journey!</p>
+  <p>Your payment was successful. Click the button below to download F1 Racing Legends!</p>
 
-  <a href="https://drive.google.com/uc?export=download&id=1jEnC1yTY5PFDz67DTiJ9NDwTg3cjhoep" class="btn">Download Now</a>
+  <!-- Botão de Download -->
+  <a href="https://res.cloudinary.com/dez3oabbg/raw/upload/v1742439822/JR_DRIVER_klh9cu.rar"
+     class="btn"
+     target="_blank"
+     rel="noopener noreferrer">Download Game (.RAR)</a>
+
+  <div class="instructions">
+    <h2>How to Extract and Play</h2>
+    <ol>
+      <li>Click the <strong>"Download Game"</strong> button above to get the file <strong>JR_DRIVER_klh9cu.rar</strong>.</li>
+      <li>Make sure you have <strong>WinRAR</strong> installed on your computer.</li>
+      <li>If you don't have WinRAR, <a href="https://www.win-rar.com/download.html" target="_blank" rel="noopener noreferrer" style="color: #ff0000;">click here to download WinRAR</a>.</li>
+      <li>After downloading, right-click on the <strong>.RAR</strong> file and choose <strong>"Extract Here"</strong> or <strong>"Extract to Folder"</strong>.</li>
+      <li>If asked, enter the password: <strong>F1Champion2024</strong></li>
+      <li>Open the extracted folder and run <strong>JR_DRIVER.exe</strong> to play!</li>
+    </ol>
+
+    <p class="small">If you need support, contact us at: support@yourgame.com</p>
+  </div>
 
 </body>
 </html>
+
